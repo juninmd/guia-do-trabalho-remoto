@@ -1,3 +1,21 @@
+<div align="center">
+
+<img src=".github/assets/readme-header.svg" alt="Banner do Guia do Trabalho Remoto: uma empresa no exterior paga por um canal de pagamento que cai na conta do profissional no Brasil" width="860" />
+
+# Guia do Trabalho Remoto
+
+**Guia em português para profissionais de TI que querem trabalhar remotamente para empresas no Brasil e no exterior.**<br/>
+Contratação, formas de receber o pagamento e vagas remotas, com base em 2 anos de trabalho remoto.
+
+[![Validate](https://img.shields.io/github/actions/workflow/status/juninmd/guia-do-trabalho-remoto/validate.yml?branch=master&style=flat-square&label=validate)](https://github.com/juninmd/guia-do-trabalho-remoto/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/juninmd/guia-do-trabalho-remoto?style=flat-square)](LICENSE)
+
+<sub>**Português** · <a href="README_es.md">Español</a></sub>
+
+</div>
+
+> **Para quem é:** quem quer trabalhar remotamente para uma empresa no Brasil ou no exterior. Comece por [Formas para receber dinheiro](#formas-para-receber-dinheiro); as vagas estão em [Procurando emprego no exterior](#procurando-emprego-no-exterior).
+
 # Introdução
 
 Trabalhar remotamente vem se tornando cada vez mais um objetivo de todos os trabalhadores na área de TI ao redor do mundo. Estar alinhado com suas necessidades, controlar seu horário de trabalho, dispor de mais tempo com a família, viajar e conhecer novos horizontes e principalmente se livrar do stress causado pelo trânsito nas grandes cidades. Estes são alguns dos motivos que fazem um funcionário questionar sua empresa e negociar uma jornada de trabalho remoto.
@@ -37,6 +55,19 @@ Para empresas no Brasil, você pode continuar com o modelo CLT ou PJ normalmente
 # Formas para receber dinheiro
 
 Aqui vem uma das partes mais importantes, que além de garantirem toda a segurança do processo, podem lhe ajudar de algumas maneiras na hora de declarar todo o imposto referente ao valor recebido.
+
+Visão geral dos canais citados neste guia (cada um tem sua seção abaixo):
+
+```mermaid
+flowchart LR
+  E["Empresa no exterior"] --> P{"Canal"}
+  P --> PP["PayPal"] --> PS["Saldo PayPal"]
+  P --> X["Xoom / TransferWise"] --> C["Conta no Brasil"]
+  P --> S["Swift"] --> C
+  P --> B["Bitcoin"] --> FX["Foxbit, troca no Brasil"] --> C
+  P --> BW["Bitwage"] --> B
+  P --> PO["Payoneer"] --> CA["Cartão pré-pago"]
+```
 
 ## Paypal
 
@@ -220,3 +251,18 @@ _Fique atento: em algumas vagas, os candidatos devem morar no mesmo país da vag
   - [Remote Jobs Worldwide](https://github.com/jessicard/remote-jobs) - Lista de empresas com trabalho remoto Worldwide
 - Artigos
   - [O que eu aprendi em quase 1 ano de home-office](https://medium.com/desenvolvimento-front-end-pt-br/o-que-eu-aprendi-em-quase-1-ano-de-home-office-7ed3cfee276a)
+
+# Contribuição
+
+Pull requests e sugestões são bem-vindos. Veja [CONTRIBUTING.md](CONTRIBUTING.md) para o fluxo de fork, branch e pull request.
+
+# Limitações conhecidas
+
+- Relato pessoal de um autor. Não é orientação contábil, jurídica ou tributária: confirme regras de imposto e de contrato com um contador.
+- Valores e limites citados (por exemplo, os limites de envio da Xoom) foram escritos em data anterior e não foram reconferidos nesta revisão.
+- Taxas e disponibilidade dos serviços citados podem ter mudado; a revisão não confirmou a situação atual de cada um.
+- Alguns links são de indicação (código de referral) e não são neutros.
+
+# Licença
+
+Distribuído sob a licença MIT, Copyright (c) 2015 Ivan Santos. Veja [LICENSE](LICENSE).

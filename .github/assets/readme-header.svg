@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" rx="24" fill="#0f172a"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="80" y="230" fill="#f8fafc" font-size="64" font-weight="700">Guia do</text>
+    <text x="80" y="305" fill="#f8fafc" font-size="64" font-weight="700">Trabalho Remoto</text>
+    <text x="80" y="370" fill="#94a3b8" font-size="30">Para profissionais de TI que querem</text>
+    <text x="80" y="412" fill="#94a3b8" font-size="30">trabalhar remotamente para empresas</text>
+    <text x="80" y="454" fill="#94a3b8" font-size="30">no Brasil e no exterior.</text>
+    <text x="80" y="550" fill="#4ade80" font-size="26">Contratação · Recebimento · Vagas</text>
+  </g>
+  <g fill="#1e293b" stroke="#334155" stroke-width="2">
+    <rect x="720" y="110" width="440" height="110" rx="16"/>
+    <rect x="720" y="280" width="440" height="110" rx="16"/>
+    <rect x="720" y="440" width="440" height="110" rx="16"/>
+  </g>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
+    <text x="940" y="158" fill="#f8fafc" font-size="30" font-weight="700">Empresa</text>
+    <text x="940" y="196" fill="#94a3b8" font-size="28">no exterior</text>
+    <text x="940" y="328" fill="#f8fafc" font-size="30" font-weight="700">Canal de pagamento</text>
+    <text x="940" y="366" fill="#94a3b8" font-size="28">Bitcoin, Swift, PayPal...</text>
+    <text x="940" y="488" fill="#f8fafc" font-size="30" font-weight="700">Sua conta</text>
+    <text x="940" y="526" fill="#94a3b8" font-size="28">no Brasil</text>
+  </g>
+  <g fill="#64748b">
+    <rect x="938" y="222" width="4" height="52"/>
+    <polygon points="940,280 928,258 952,258"/>
+    <rect x="938" y="390" width="4" height="46"/>
+    <polygon points="940,440 928,418 952,418"/>
+  </g>
+</svg>
